@@ -1,7 +1,8 @@
 <?php
 include_once('Volswagen.php');
 
-class Passat extends Volswagen {
+class Passat extends Volswagen 
+{
 
     
 } 
