@@ -1,6 +1,7 @@
 <?php
 
-interface Car {
+interface Car 
+{
 
     public function getTires();
     public function getWheul();
