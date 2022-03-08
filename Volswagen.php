@@ -1,7 +1,8 @@
 <?php
 include('InterfaceCar.php');
 
-class Volswagen implements Car {
+class Volswagen implements Car 
+{
 
     private $tires = 4;
     protected $wheul = "left";
@@ -11,13 +12,6 @@ class Volswagen implements Car {
     public function getTires()
     {
         return $this->tires;
-    }
-
-    public function setTires($tires)
-    {
-        $this->tires = $tires;
-
-        return $this;
     }
 
     public function getWheul()
